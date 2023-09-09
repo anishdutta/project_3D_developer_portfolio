@@ -33,6 +33,8 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
+          {
+            source_code_link ? 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -44,12 +46,21 @@ const ProjectCard = ({
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
-          </div>
+          </div>: <span></span>
+          }
+
+          
         </div>
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <p className={`mt-2 text-secondary text-[14px] ${index}-desc`}>{description.slice(0,212)}</p>
+          <p onClick={()=>{
+            const previous = document.getElementsByClassName(`${index}-desc`);
+            previous[0].innerHTML = description
+            const thisButton =  document.getElementsByClassName(`readMoreClick-${index}`);
+            thisButton[0].style.display = 'none'
+          }} className={`readMoreClick-${index}`} >Read More 👇</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>

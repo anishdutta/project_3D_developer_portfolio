@@ -37,9 +37,11 @@ const Ball = (props) => {
   );
 };
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ icon, onMouseOver,onmouseleave }) => {
   return (
     <Canvas
+    onMouseOver={onMouseOver}
+    onMouseLeave = {onmouseleave}
       frameloop='demand'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
