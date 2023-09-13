@@ -137,7 +137,7 @@ const experiences = [
     company_name: "Bik (Formerly Bikayi)",
     icon: bik,
     iconBg: "#000000",
-    date: "March 2020 - April 2021",
+    date: "Feb 2022 - Present",
     points: [
       "Orchestrated cross-functional teamwork to build a robust foundation for core product features, resulting in a successful launch with over 1 million visits within the first month.",
       "Designed and executed a scalable system to facilitate the seamless migration of Shopify segments, encompassing a vast dataset of more than 10 million entries, to our platform.",
@@ -150,7 +150,7 @@ const experiences = [
     company_name: "Upjao",
     icon: upjao,
     iconBg: "#FFFFFF",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2021 - Feb 2022",
     points: [
       "Architected an innovative, custom CMS-integrated corporate page for www.upjao.ai using html, css , jQuery and PHP for cms.",
       "Successfully spearheaded the implementation of DevOps practices for the product, resulting in improved collaboration, streamlined workflows, and accelerated software delivery",
@@ -161,7 +161,7 @@ const experiences = [
     company_name: "Potluck",
     icon: potluck,
     iconBg: "#000000",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2021 - Dec 2023",
     points: [
       "Spearheaded the end-to-end design and development of the microservice backend for the Potluck Go product. ",
       "Developed and maintained huge e-commerce web platforms and corporate pages.",
@@ -174,7 +174,7 @@ const experiences = [
     company_name: "SRM IST",
     icon: srm,
     iconBg: "#FFFFFF",
-    date: "Jan 2023 - Present",
+    date: "April 2019 - April 2022",
     points: [
       "Graduated with a Bachelor of Science in Computer Science with a CGPA of 9",
       "Secured funding from SIIC innovation and incubation centre",
