@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  resume,
   javascript,
   typescript,
   html,
@@ -50,7 +51,7 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "public/anish_dutta.pdf",
+    id: "https://drive.google.com/file/d/1dBm3C7CswYANqVqYvGfee_8jeRa7nw3T/view",
     title: "Resume",
     externalLink: true,
   },
