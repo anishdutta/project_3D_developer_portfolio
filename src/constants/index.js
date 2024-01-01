@@ -50,7 +50,7 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "src/assets/anish_dutta.pdf",
+    id: "public/anish_dutta.pdf",
     title: "Resume",
     externalLink: true,
   },
