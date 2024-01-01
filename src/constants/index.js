@@ -50,10 +50,15 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "/src/assets/anish_dutta.pdf",
+    id: "src/assets/anish_dutta.pdf",
     title: "Resume",
     externalLink: true,
   },
+  // {
+  //   id: "/src/assets/anish_dutta.pdf",
+  //   title: "Resume",
+  //   externalLink: true,
+  // },
 ];
 
 const services = [
